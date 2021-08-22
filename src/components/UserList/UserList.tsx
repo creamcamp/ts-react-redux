@@ -1,7 +1,6 @@
 import React, { FC, useEffect } from 'react'
 import { useTypeSelector } from '../../hooks/useTypedSelector';
 import { useActions } from '../../hooks/useActions';
-import { IUser } from '../../types/users';
 
 export const UserList: FC = () => {
     const { users, error, loading } = useTypeSelector(state => state.user);

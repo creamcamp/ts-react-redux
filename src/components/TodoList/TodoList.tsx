@@ -1,7 +1,6 @@
 import React, { FC, useEffect } from 'react';
 import { useActions } from '../../hooks/useActions';
 import { useTypeSelector } from '../../hooks/useTypedSelector';
-import { ITodo } from '../../types/todo';
 
 export const TodoList: FC = () => {
     const { page, error, loading, todos, limit } = useTypeSelector(state => state.todo);
