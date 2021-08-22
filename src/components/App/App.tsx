@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../../logo.svg';
 import './App.css';
-import { UserList } from './components/UserList/UserList';
-import { TodoList } from './components/TodoList/TodoList';
+import { UserList } from '../UserList/UserList';
+import { TodoList } from '../TodoList/TodoList';
 
 function App() {
   return (
