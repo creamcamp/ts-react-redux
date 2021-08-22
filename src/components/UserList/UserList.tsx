@@ -11,7 +11,7 @@ export const UserList: FC = () => {
     }, []);
 
     if (loading) {
-        return <h1>Loading in progress...</h1>
+        return <h1>User loading is in progress...</h1>
     }
 
     if (error) {
