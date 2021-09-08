@@ -1,6 +1,10 @@
 {
   "name": "ts-react-redux",
-  "author": "winniepukki",
+  "author": {
+    "name": "Aleksandrs Bogackins",
+    "email": "a.bogackins@gmail.com",
+    "url": "https://github.com/winniepukki"
+  },
   "version": "0.1.0",
   "description": "Useful React & Redux & TypeScript initial project set-up from winniepukki <a.bogackins@gmail.com> with multiple reducers",
   "dependencies": {
